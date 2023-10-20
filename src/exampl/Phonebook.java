@@ -1,8 +1,8 @@
 
-package org.exampl;
+package exampl;
 import java.util.*;
 
-class Phonebook {
+public class Phonebook {
     private static HashMap< String, ArrayList > contacts = new HashMap<>();
 
     public static void add(String name, String phone) {
