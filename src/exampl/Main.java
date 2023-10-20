@@ -15,14 +15,14 @@ public class Main {
         Phonebook.add("Olga", "89202964745");
         Phonebook.add("Stiv", "89203123456");
 
-        System.out.println("Выполнение запроса номеров по имени -->");
+        System.out.println("Р’С‹РїРѕР»РЅРµРЅРёРµ Р·Р°РїСЂРѕСЃР° РЅРѕРјРµСЂРѕРІ РїРѕ РёРјРµРЅРё -->");
         System.out.println("-".repeat(60));
         System.out.println(book.get("Nadin"));
         System.out.println(book.get("Axel"));
         System.out.println(book.get("Olga"));
         System.out.println("-".repeat(60));
 
-        System.out.println("Вывод отсортирован по убыванию числа телефонов -->");
+        System.out.println("Р’С‹РІРѕРґ РѕС‚СЃРѕСЂС‚РёСЂРѕРІР°РЅ РїРѕ СѓР±С‹РІР°РЅРёСЋ С‡РёСЃР»Р° С‚РµР»РµС„РѕРЅРѕРІ -->");
         System.out.println("-".repeat(60));
         showBook();
         System.out.println("-".repeat(60));
